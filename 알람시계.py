@@ -1,14 +1,9 @@
-while true:
-    h = int(input("H: "))
-    m = int(input("M: "))
-    if m > 59 or h > 23:
+hour = int(input("Enter the hour: "))
+minute = int(input("Enger the minute: "))
 
-if m > 44:
-    print (h, m-45)
-
-elif m <= 44 and h >= 1:
-    print (h-1, m+15)
-
-
-else: 
-    print (23, m+15)
+if minute > 44:
+    print(hour, minute-45)
+elif minute <= 44 and hour >= 1:
+    print(hour-1, minute+15)
+else:
+    print(23, minute+15)
