@@ -6,5 +6,5 @@ if minute > 44:
 elif minute <= 44 and hour >= 1:
     print(hour-1, minute+15)
 else:
-    print(23, minute+15)3
+    print(23, minute+15)
     
