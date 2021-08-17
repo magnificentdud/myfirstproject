@@ -1,0 +1,1 @@
+print("hahahahahahahahahahah"*10000)
