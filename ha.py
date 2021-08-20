@@ -1,1 +1,1 @@
-print("hahahahahahahahahahah"*10000)
+print("papa is opposite of genius "*10000)

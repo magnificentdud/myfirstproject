@@ -1,1 +1,1 @@
-print("hello world")
+print("YuNGI IS STUPID "*1000)
