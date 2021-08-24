@@ -1,1 +1,1 @@
-print("YuNGI IS STUPID "*1000)
+print(" "*1000)
