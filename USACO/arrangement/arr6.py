@@ -1,9 +1,9 @@
-dials = ['abc','def','ghi','jkl','mno','pqrs','tuv','wxyz']
-time = 0
-word = input()
-for k in range(len(word)):
+dials = ['ABC','DEF','GHI','JKL','MNO','PQRS','TUV','WXYZ']
+a = input()
+sol = 0
+for k in range(len(a)):
     for i in dials:
-        if word[k] in i:
-            time+=dials.index(i)+3
-print(time)
+        for a[k] in i:
+            sol += dials.index(i)+3
+print(sol)
 
