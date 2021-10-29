@@ -9,3 +9,9 @@ while not game_over:
         print(event)
 pygame.quit()
 quit()
+
+
+x = int(input())
+
+if x==4:
+    print('right')

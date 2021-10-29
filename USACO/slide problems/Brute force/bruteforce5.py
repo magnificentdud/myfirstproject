@@ -10,5 +10,25 @@ for i in range(4):
     for k in range(op[i]):
         oper.append(o[i])
 
-oper = (set(permutations(oper, len(oper))))
+oper = list(set(permutations(oper, len(oper))))
 print(oper)
+
+ans = []
+
+for i in oper:
+    n = num[0]
+    for j in range(len(num)):
+        if i[j]=='+':
+            n += num[j+1]
+        elif i[j]=='-':
+            n -= num(j+1)
+        elif i[j]=='*':
+            n *= num[j+1]
+        else:
+            if n//num[j+1]<0:
+                n = -(-n//num[j+1])
+            else:
+                n = n//num[j+1]
+    ans.append(n)
+
+print(max(ans), min(ans))
